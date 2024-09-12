@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Profile Card | Somesh Singh</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <script>
+        Swal.fire({
+                title:"Profile Card | Somesh Singh",
+                text:"Hope you like it.",
+                icon:"success",
+                 });
+    </script>
+    <div class='profile-card_container'>
+    <div align='center'>
+    <div class='card' id='main'> 
+    <div class='card_background_image'></div>
+    <div class='name'>Somesh Singh</div>
+
+    <div class='Profile'>
+    <div class='Details'>
+    <div class='profile_details'>
+    <center> <div class="GitHub_button"><a href="https://github.com/someshsingh-7251" class="follow" target="_blank">GitHub</a></div></center>
+    </div>
+    <div class='flex'></div>
+    <div class='profile_details'>
+    <center> <div class="Linkedin_button"><a href="https://www.linkedin.com/in/somesh-singh-2aa796229/" class="follow" target="_blank">Linkedin</a></div></center>
+    </div>
+    <div class='flex'></div>
+    <div class='profile_details'>
+    <center> <div class="kaggle_button"><a href="https://www.kaggle.com/someshsingh7251" class="follow" target="_blank">Kaggle</a></div></center>
+    </div>
+    <div class='flex'></div>
+    <div class='profile_details'>
+    <center> <div class="Hackerrank_button"><a href="https://www.hackerrank.com/profile/somesh572000" class="follow" target="_blank">Hackerrank</a></div></center>   
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+     <script>
+     gsap.timeline()
+    .from("#main",{opacity :0,y:100,duration:2})
+    </script>
+    </body>
+</html>
